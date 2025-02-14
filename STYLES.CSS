@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.clock {
+.RELOGIO {
     display: flex;
     align-items: center;
     font-size: 120px;
@@ -19,28 +19,27 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.divider {
+.DIVISAO {
     border-right: 1px solid #000000;
     height: 100%;
     margin: 0 12px;
 }
 
-#hour,
-#minute,
-#second {
+#HORA,
+#MINUTO,
+#SEGUNDO {
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#hour,
-#minute,
-#second {
+#HORA,
+#MINUTO,
+#SEGUNDO {
     font-weight: bold;
 }
 
-/* Ajuste para garantir que os números do relógio estejam centralizados */
 .clock span {
     display: inline-block;
 }
