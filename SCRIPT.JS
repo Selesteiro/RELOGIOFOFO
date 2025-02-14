@@ -5,9 +5,9 @@ function updateClock() {
     const minutes = String(now.getMinutes()).padStart(2, '0');
     const seconds = String(now.getSeconds()).padStart(2, '0');
 
-    const hourElement = document.getElementById('hour');
-    const minuteElement = document.getElementById('minute');
-    const secondElement = document.getElementById('second');
+    const hourElement = document.getElementById('HORA');
+    const minuteElement = document.getElementById('MINUTO');
+    const secondElement = document.getElementById('SEGUNDO');
 
     hourElement.textContent = hours;
     minuteElement.textContent = minutes;
